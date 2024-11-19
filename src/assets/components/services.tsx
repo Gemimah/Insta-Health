@@ -2,8 +2,13 @@ import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import './servicessection.css';
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import logo from "./Group 1000001874.png";
 import doctor3 from "./Frame 1000003763.png";
+=======
+import logo from "/Group 1000001874.png";
+import doctor3 from "/Frame 1000003763.png";
+>>>>>>> 840b595b (new dir)
 
 const ServicesSection: React.FC = () => {
   const services = [

@@ -1,6 +1,10 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+<<<<<<< HEAD
 import logo from "../components/Group 1000001874.png";
+=======
+import logo from "/Group 1000001874.png";
+>>>>>>> 840b595b (new dir)
 import { Container, Row, Col, Table, Button } from "react-bootstrap";
 import "../components/Cart.css";
 

@@ -3,8 +3,13 @@ import React from 'react';
 import { Container, Row, Col, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 import "./contact-us.css";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import logo from "./Group 1000001874.png";
 import map from "./Component 6.png";
+=======
+import logo from "/Group 1000001874.png";
+import map from "/Component 6.png";
+>>>>>>> 840b595b (new dir)
 
 const contactUs = () => {
   return (

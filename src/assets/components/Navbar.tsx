@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+<<<<<<< HEAD
 import { Link,useNavigate } from 'react-router-dom';
 import logo from "./Group 1000001874.png";
 import b1 from "./1.png";
@@ -26,6 +27,19 @@ import whatsapp from "./Group 39.png";
 
 
 const Navbar: React.FC = () => {
+=======
+import { useNavigate } from 'react-router-dom';
+import doctor1 from "/Group 1000002028.png";
+import "./Navbar.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import whatsapp from "/Group 39.png";
+
+// Import features from constants.js
+import { features } from "../Constant/constants.js";
+import Navbar from "./Navbar1.js";
+
+const Home: React.FC = () => {
+>>>>>>> 840b595b (new dir)
   const navigate = useNavigate();
 
   const handleSignUp = () => {
@@ -38,6 +52,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
+<<<<<<< HEAD
     <nav className="navbar navbar-expand-lg navbar-light bg-light py-3">
       <div className="container7">
         <a className="navbar-brand d-flex align-items-center" href="#">
@@ -100,6 +115,9 @@ const Navbar: React.FC = () => {
       </div>
     </nav>
 
+=======
+    <Navbar />
+>>>>>>> 840b595b (new dir)
       <header className="container mt-5">
         <div className="row align-items-center">
           <div className="col-lg-6 text-center text-lg-start">
@@ -142,11 +160,16 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </header>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 840b595b (new dir)
       <section className="features-section container mt-5">
         <h3 className="text-center mb-4 fw-bold" style={{ fontSize: "2rem" }}>
           Our Features
         </h3>
         <div className="row text-center">
+<<<<<<< HEAD
           <div className="col-md-3">
             <div className="card h-100 p-4 feature-card">
               <img src={call} alt="Feature Icon" className="circular-image" />
@@ -445,8 +468,31 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </footer>
+=======
+          {features.map((feature, index) => (
+            <div className="col-md-3" key={index}>
+              <div className="card h-100 p-4 feature-card">
+                <img
+                  src={feature.imgSrc}
+                  alt="Feature Icon"
+                  className="circular-image"
+                />
+                <h3 className="mt-3">{feature.title}</h3>
+                <p>{feature.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Rest of the component content remains unchanged */}
+>>>>>>> 840b595b (new dir)
     </>
   );
 };
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Home;
+>>>>>>> 840b595b (new dir)

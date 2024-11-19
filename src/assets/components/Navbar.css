@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -489,4 +490,74 @@ ul li a {
 
 ul li a:hover {
   text-decoration: underline;
+=======
+/* Navbar.css */
+
+/* Flex settings for the entire navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+/* Ensure the container7 is flexed and aligns items horizontally */
+.container7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem; /* Adjust the gap between flexed items if needed */
+}
+
+/* Make the navbar items align horizontally */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Adjust the gap between nav items if needed */
+}
+
+.nav-item {
+  list-style: none;
+}
+
+/* Flex settings for the right-side buttons */
+.ms-3 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+/* Ensure nav-link aligns properly in flex */
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change to your preferred hover color */
+}
+
+/* Flex settings for the header section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+>>>>>>> 840b595b (new dir)
 }

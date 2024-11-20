@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'; 
 import './login.css';
 
-function TibaHealth() {
+function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -80,4 +80,4 @@ function TibaHealth() {
   );
 }
 
-export default TibaHealth;
+export default Login;

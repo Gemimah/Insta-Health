@@ -1,18 +1,10 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-<<<<<<< HEAD
-import logo from "../components/Group 1000001874.png";
-import { FaCartPlus, FaHeart, FaStar } from "react-icons/fa";
-import { BsSearch } from "react-icons/bs";
-import { Container, Row, Col, Card, Button, Dropdown } from "react-bootstrap";
-import Toiletpaper from "../components/ph 1.png";
-=======
 import logo from "/Group 1000001874.png";
 import { FaCartPlus, FaHeart, FaStar } from "react-icons/fa";
 import { BsSearch } from "react-icons/bs";
 import { Container, Row, Col, Card, Button, Dropdown } from "react-bootstrap";
 import Toiletpaper from "/ph 1.png";
->>>>>>> 840b595b (new dir)
 import "../components/market.css";
 
 

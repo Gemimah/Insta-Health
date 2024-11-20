@@ -1,12 +1,6 @@
 {
   "files": [],
   "references": [
-<<<<<<< HEAD
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
-}
-=======
     {
       "path": "./tsconfig.app.json"
     },
@@ -18,4 +12,3 @@
     "jsx": "react"
   }
 }
->>>>>>> 840b595b (new dir)

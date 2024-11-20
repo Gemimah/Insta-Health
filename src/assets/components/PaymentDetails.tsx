@@ -3,11 +3,7 @@ import { Button, Form, Container, Row, Col } from "react-bootstrap";
 import "../components/PaymentDetails.css"; 
 import { FaCartPlus, FaHeart } from "react-icons/fa";
 import { Link} from "react-router-dom";
-<<<<<<< HEAD
-import logo from "../components/Group 1000001874.png";
-=======
 import logo from "/Group 1000001874.png";
->>>>>>> 840b595b (new dir)
 import { BsSearch } from "react-icons/bs";
 
 interface Product {

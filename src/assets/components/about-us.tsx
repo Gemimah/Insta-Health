@@ -1,19 +1,10 @@
 import { Link,useNavigate  } from "react-router-dom";
-<<<<<<< HEAD
-import logo from "./Group 1000001874.png";
-import "./about-us.css";
-import ellipse from "./Frame 92.png";
-import man1 from "./Frame 1000003760.png";
-import man2 from "./Frame 1000003761.png";
-import man3 from "./image 1230.png";
-=======
 import logo from "/Group 1000001874.png";
 import "./about-us.css";
 import ellipse from "/Frame 92.png";
 import man1 from "/Frame 1000003760.png";
 import man2 from "/Frame 1000003761.png";
 import man3 from "/image 1230.png";
->>>>>>> 840b595b (new dir)
 import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";

@@ -17,6 +17,7 @@ import Targetpage from './assets/components/target-page';
 import Login from './assets/components/login';
 import PatientRegistration from "./assets/components/Patient";
 import Home from "./assets/components/Navbar"
+import SignUpPage from "./Pages/SignUpPage";
 
 const App: React.FC = () => {
   interface Product {
@@ -53,7 +54,7 @@ const App: React.FC = () => {
           <Route path="/PaymentDetails" element={<PaymentDetails cartItems={[]} />}></Route>
 
           <Route path="/LoginRegister" element={<LoginRegister />} />
-          <Route path="/Register" element={<Register />} />
+          <Route path="/Register" element={<SignUpPage />} />
           <Route path="/DoctorRegister" element={<DoctorRegister />} />
           <Route path="/target-page" element={<Targetpage />} />
           <Route path="/login" element={<Login />} />

@@ -1,13 +1,8 @@
 import React from "react";
 import { Form, Button, Col, Row, Image } from "react-bootstrap";
 import "./target-page.css";  // For custom styles
-<<<<<<< HEAD
-import log from "./Group 1000001896.png";
-import doctor7 from "./doctor-removebg-preview 7.png";
-=======
 import log from "/Group 1000001896.png";
 import doctor7 from "/doctor-removebg-preview 7.png";
->>>>>>> 840b595b (new dir)
 
 const TargetPage: React.FC = () => {
   return (
@@ -23,12 +18,10 @@ const TargetPage: React.FC = () => {
               alt="Logo"
               className="small-logo me-2"
             />
-            <h2>Welcome to InstaHealth doctor</h2>
+            <h2>Welcome to InstaHealth <span className="">👋</span></h2>
           </div>
           
-          <p>
-            Hello doctor, create your account to use at InstaHealth and talk to different patients.
-          </p>
+          <p>InstaHealth is a user-friendly app offering quick access to healthcare services, including consultations, appointment scheduling, and personalized health insights. Simplify your wellness journey with InstaHealth.</p>
           
 
           
@@ -86,12 +79,7 @@ const TargetPage: React.FC = () => {
                   id="female"
                 />
                 <Form.Check type="radio" label="Male" name="gender" id="male" />
-                <Form.Check
-                  type="radio"
-                  label="Prefer not to say"
-                  name="gender"
-                  id="preferNotToSay"
-                />
+                <Form.Check type="radio" label="Prefer not to say" name="gender" id="preferNotToSay" />
               </div>
             </Form.Group>
 

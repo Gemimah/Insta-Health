@@ -1,6 +1,8 @@
 import React from 'react';
 import './Patient.css';
 
+const placeholder = "via.placeholdere.com/50"
+
 const PatientRegistration: React.FC = () => {
   return (
     <div className="registration-container">
@@ -11,7 +13,7 @@ const PatientRegistration: React.FC = () => {
           Hello patients, welcome to Tiba Health where you will get access to different doctors
           and medicine at a low price.
         </p>
-        <img src="doctor_patient.png" alt="Doctor and Patient" className="illustration" />
+        <img src={placeholder} alt="Doctor and Patient" className="illustration" />
         {/* Replace with your image path */}
       </div>
 

@@ -1,28 +1,28 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link,useNavigate } from 'react-router-dom';
-import logo from "./Group 1000001874.png";
-import b1 from "./1.png";
-import b2 from "./3.png";
-import b3 from "./6.png";
-import "./Component 6.png";
-import "./Frame 1000003760.png";
-import "./Frame 1000003761.png";
-import "./Frame 92.png";
-import doctor1 from "./Group 1000002028.png";
+import logo from "/Group 1000001874.png";
+import b1 from "/1.png";
+import b2 from "/3.png";
+import b3 from "/6.png";
+import "/Component 6.png";
+import "/Frame 1000003760.png";
+import "/Frame 1000003761.png";
+import "/Frame 92.png";
+import doctor1 from "/Group 1000002028.png";
 import { FaWhatsappSquare } from "react-icons/fa";
 import "./Navbar.css";
-import book from "./bbok 1.jpg";
-import call from "./aud-removebg-preview 1.png";
-import Patient from "./patient-removebg-preview 2.png";
-import doctor2 from "./doctor-removebg-preview 7.png";
-import Offers from "./Group 20.png";
-import insurance from "./insurance 2.png";
-import call2 from "./Group 1000002031.png";
+import book from "/bbok 1.jpg";
+import call from "/aud-removebg-preview 1.png";
+import Patient from "/patient-removebg-preview 2.png";
+import doctor2 from "/doctor-removebg-preview 7.png";
+import Offers from "/Group 20.png";
+import insurance from "/insurance 2.png";
+import call2 from "/Group 1000002031.png";
 import { Button } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.css";
-import whatsapp from "./Group 39.png";
+import whatsapp from "/Group 39.png";
 import Navbar from "./Navbar1";
 
 
@@ -36,6 +36,8 @@ const Home: React.FC = () => {
   const handleLogin = () => {
     navigate('/LoginRegister');
   };
+
+  const placeholder = "via.placeholder.com/50"
 
   return (
     <>

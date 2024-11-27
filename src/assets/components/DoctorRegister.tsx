@@ -7,6 +7,8 @@ interface Country {
   name: string;
 }
 
+const placeholder = "via.placeholder.com/80"
+
 const DoctorRegistration: React.FC = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>('');
 
@@ -17,7 +19,7 @@ const DoctorRegistration: React.FC = () => {
   return (
     <div className="registration-container">
       <div className="registration-left">
-        <img src="/path/to/doctor-image.png" alt="Doctor" />
+        <img src={placeholder} alt="Doctor" />
         <h2>Welcome to InstaHealth doctor</h2>
         <p>
           Hello doctor, create your account to use at InstaHealth and talk to different patients.

@@ -1,10 +1,6 @@
 import { Link,useNavigate  } from "react-router-dom";
 import logo from "/logo.png";
 import "./about-us.css";
-import ellipse from "/Frame 92.png";
-import man1 from "/Frame 1000003760.png";
-import man2 from "/Frame 1000003761.png";
-import man3 from "/image 1230.png";
 import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
@@ -17,6 +13,8 @@ const AboutUs: React.FC = () => {
     setActiveBox(index);
   };
 
+  const placeholder = "http://via.placeholder.com/80";
+
   const handleSignUp = () => {
     navigate('/LoginRegister');
   };
@@ -28,7 +26,7 @@ const AboutUs: React.FC = () => {
     {
       name: "Dennis Albo",
       role: "Ceo & Founder",
-      image: "/path-to-image/dennis.jpg",
+      image: "",
       socials: {
         facebook: "https://facebook.com",
         linkedin: "https://linkedin.com",
@@ -141,7 +139,7 @@ const AboutUs: React.FC = () => {
           </div>
 
           <div className="col-md-6">
-            <img src={ellipse} alt="Team meeting" className="img-fluid-2" />
+            <img src={placeholder} alt="Team meeting" className="img-fluid-2" />
           </div>
         </div>
       </div>
@@ -243,7 +241,7 @@ const AboutUs: React.FC = () => {
             <div className="col-md-4">
               <div className="team-card">
                 <div className="image-wrapper">
-                  <img src={man3} alt="Dennis Albo" className="team-img" />
+                  <img src={placeholder} alt="Dennis Albo" className="team-img" />
                 </div>
                 <div className="card-body-content">
                   <h5 className="card-title">Dennis Albo</h5>
@@ -259,7 +257,7 @@ const AboutUs: React.FC = () => {
             <div className="col-md-4">
               <div className="team-card">
                 <div className="image-wrapper">
-                  <img src={man1} alt="Steave Harden" className="team-img" />
+                  <img src={placeholder} alt="Steave Harden" className="team-img" />
                 </div>
                 <div className="card-body-content">
                   <h5 className="card-title">Steave Harden</h5>
@@ -275,7 +273,7 @@ const AboutUs: React.FC = () => {
             <div className="col-md-4">
               <div className="team-card">
                 <div className="image-wrapper">
-                  <img src={man2} alt="Mark Barren" className="team-img" />
+                  <img src={placeholder} alt="Mark Barren" className="team-img" />
                 </div>
                 <div className="card-body-content">
                   <h5 className="card-title">Mark Barren</h5>

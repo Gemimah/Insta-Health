@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 import "./contact-us.css";
 import { Link } from "react-router-dom";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 import map from "/Component 6.png";
 
 const contactUs = () => {

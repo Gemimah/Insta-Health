@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, useNavigate } from 'react-router-dom';
 import "./Navbar.css";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import "./packages.css";
 

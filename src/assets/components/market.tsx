@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 import { FaCartPlus, FaHeart, FaStar } from "react-icons/fa";
 import { BsSearch } from "react-icons/bs";
 import { Container, Row, Col, Card, Button, Dropdown } from "react-bootstrap";

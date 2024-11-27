@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import './servicessection.css';
 import { Link } from "react-router-dom";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 import doctor3 from "/Frame 1000003763.png";
 
 const ServicesSection: React.FC = () => {

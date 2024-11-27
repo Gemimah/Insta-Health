@@ -1,5 +1,5 @@
 import { Link,useNavigate  } from "react-router-dom";
-import logo from "/Group 1000001874.png";
+import logo from "/logo.png";
 import "./about-us.css";
 import ellipse from "/Frame 92.png";
 import man1 from "/Frame 1000003760.png";

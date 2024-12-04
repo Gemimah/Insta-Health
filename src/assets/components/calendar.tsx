@@ -1,6 +1,6 @@
 // Calendar.tsx
 import React, { useState } from 'react';
-import './Calendar.css';
+import './calendar.css';
 
 const Calendar: React.FC = () => {
   const [currentDate, setCurrentDate] = useState(new Date());

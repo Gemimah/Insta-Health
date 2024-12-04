@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img src={logo} alt="Insta Health Logo" className="logo2" />

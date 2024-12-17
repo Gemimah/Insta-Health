@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/Footer";
-import Card from "../components/Card"; 
+import Navbar from "../../components/navbar";
+import Footer from "../../components/Footer";
+import Card from "../../components//Card"; 
 
 export default function Cart() {
   const initialCartItems = [

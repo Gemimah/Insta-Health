@@ -13,10 +13,10 @@ import {
 const TABS = [
   { label: 'Dashboard', icon: FiGrid, href: '/admin/dashboard' },
   { label: 'Doctors List', icon: FiList, href: '/admin/doctors' },
-  { label: 'Appointments ', icon: FiCalendar, href: '#' },
+  { label: 'Appointments', icon: FiCalendar, href: '/admin/appointment' },
   { label: 'Messages', icon: FiMessageCircle, href: '#' },
-  { label: 'Payments', icon: FiCreditCard, href: '#' },
-  { label: 'Consultations ', icon: FiCheckCircle, href: '#' },
+  { label: 'Payments', icon: FiCreditCard, href: '/admin/payment' },
+  { label: 'Consultations ', icon: FiCheckCircle, href: '/admin/consultation' },
   { label: 'Reports', icon: FiCheckCircle, href: '#' },
   { label: 'Profile', icon: FiUser, href: '#' },
 ];

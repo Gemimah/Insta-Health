@@ -32,13 +32,13 @@ const PaymentTable: React.FC = () => {
           {payments.map((payment, index) => (
             <tr key={index} className="text-sm h-[66px] shadow-inner ">
               <td className="flex items-center font-bold gap-[1rem] pl-[2rem] py-[8px]">
-                <img src="https://via.placeholder.com/80" alt="" className="w-[50px] h-[50px] rounded-[50%]" />
+                <img src="/patient.jpg" alt="" className="w-[50px] h-[50px] rounded-[50%]" />
                 {payment.user}
               </td>
               <td className="py-[8px]">{payment.amount}</td>
               <td className="py-[8px]">{payment.date}</td>
               <td className="py-[8px]">
-                <button className="text-blue-500 bg-white border border-blue-500 px-[1.5rem] rounded-[5px]">Details</button>
+                <button className="text-blue-500 bg-white border border-blue-500 px-[1.5rem] rounded-[5px] h-[40px]">Details</button>
               </td>
             </tr>
           ))}

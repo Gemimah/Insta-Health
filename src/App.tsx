@@ -19,6 +19,8 @@ import SignUp from "./pages/Patients/SignUp";
 import PDocuments from "./components/SignUp/Patient/Documents/PrivacyPolicy";
 import TDocuments from "./components/SignUp/Patient/Documents/TermsOfUse";
 import AdminDashboard from "./pages/admin/admin";
+import DoctorPage from "./pages/admin/doctors";
+import SingleDoctorPage from "./pages/admin/SingleDoctor";
 
 
 export default function App(){
@@ -46,6 +48,8 @@ export default function App(){
         <Route path="/privacy" element={<PDocuments />} />
         <Route path="/terms" element={<TDocuments />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/doctors" element={<DoctorPage/>} />
+        <Route path="/admin/doctor/:id" element={<SingleDoctorPage/>}/>
 
       </Routes>
     </Router>

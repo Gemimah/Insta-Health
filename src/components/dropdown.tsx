@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
 
@@ -10,7 +8,7 @@ interface DropdownProps {
   className?: string;
 }
 
-export default function Dropdown({ options, width = '20rem', height = '3rem',className }: DropdownProps) {
+export default function Dropdown({ options, width = '20rem', height = '3rem', className }: DropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string>(options[0]);
 
@@ -24,10 +22,10 @@ export default function Dropdown({ options, width = '20rem', height = '3rem',cla
   };
 
   return (
-    <div className="relative" style={{ width }}>
+    <div className="relative z-50" style={{ width }}>
       <button
         type="button"
-        className="flex justify-between w-full px-4 py-2 text-sm font-medium text-black bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50"
+        className="flex justify-between w-full px-4 py-2 text-sm font-medium text-black z-50 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50"
         onClick={toggleDropdown}
         style={{ height }}
       >
@@ -37,7 +35,8 @@ export default function Dropdown({ options, width = '20rem', height = '3rem',cla
 
       {isOpen && (
         <div
-          className="absolute z-10 left-0 w-full mt-1 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
+          className={`absolute left-0 w-full mt-1 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50 ${className}`}
+          style={{ maxHeight: '200px', overflowY: 'auto' }}
         >
           {options.map((option, index) => (
             <button

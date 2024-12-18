@@ -42,7 +42,7 @@ const RevenueChart: FC = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg" style={{ height: '250px' }}>
+    <div className="bg-white rounded-lg" style={{ height: '250px',width:"500px" }}>
       <Bar data={data} options={options} />
     </div>
   );

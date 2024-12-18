@@ -11,13 +11,13 @@ import {
 } from 'react-icons/fi';
 
 const TABS = [
-  { label: 'Dashboard', icon: FiGrid, href: '#' },
-  { label: 'Doctors List', icon: FiList, href: '#' },
-  { label: 'Appointments History', icon: FiCalendar, href: '#' },
+  { label: 'Dashboard', icon: FiGrid, href: '/admin/dashboard' },
+  { label: 'Doctors List', icon: FiList, href: '/admin/doctors' },
+  { label: 'Appointments ', icon: FiCalendar, href: '#' },
   { label: 'Messages', icon: FiMessageCircle, href: '#' },
   { label: 'Payments', icon: FiCreditCard, href: '#' },
-  { label: 'Consultations History', icon: FiCheckCircle, href: '#' },
-  { label: 'Reports and analytics', icon: FiCheckCircle, href: '#' },
+  { label: 'Consultations ', icon: FiCheckCircle, href: '#' },
+  { label: 'Reports', icon: FiCheckCircle, href: '#' },
   { label: 'Profile', icon: FiUser, href: '#' },
 ];
 
@@ -28,7 +28,7 @@ interface SidebarProps {
 
 const Sidebar: FC<SidebarProps> = ({ activeTab, onTabChange }) => {
   return (
-    <div className="w-64 bg-white h-screen p-6 shadow-lg space-y-[3rem] sticky top-0">
+    <div className="w-64 bg-white h-full p-6 shadow-lg space-y-[3rem] sticky top-0">
       <h2 className="text-2xl font-semibold text-blue-500 mb-8">Insta Health</h2>
       <nav className="space-y-[1rem]">
         {TABS.map((tab) => {
@@ -42,7 +42,7 @@ const Sidebar: FC<SidebarProps> = ({ activeTab, onTabChange }) => {
               onClick={() => onTabChange(tab.label)}
               className={`flex items-center rounded-md px-2 py-2 ${
                 isActive
-                  ? 'bg-blue-500 text-white'
+                  ? 'bg-blue-500 text-white '
                   : 'text-gray-700 hover:bg-blue-500 hover:text-white'
               }`}
             >
